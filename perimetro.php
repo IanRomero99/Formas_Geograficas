@@ -1,24 +1,8 @@
 <?php
 
-// Creación de la interfaz del Perimetro, con su atributo publico del perimetro
+// Creación de la interfaz del Perimetro, con su método calcularPerimetro
 interface PerimetroM {
-    public $perimetro;
+    public function calcularPerimetro();
 }
-
-   function getPerimetro() {
-        return $this->perimetro;
-    }
-
-    function setPerimetro() {
-        $this->perimetro = $perimetro;
-    }
-
-    public function __construct($perimetro) {
-        $this->perimetro = $perimetro;
-    }
-    
-    public function __destruct() {
-        echo "Destruyendo el objeto";
-       }
 
 ?>

@@ -1,12 +1,13 @@
 <?php
 
-// Incluimos la página de figura geometrica ya que incluye el atributo abstracto del area 
+// Incluimos la página de FiguraGeometrica ya que incluye el atributo abstracto del área
 include_once("./figura_geometrica.php");
 
-// Creación de la clase abstracta de area
+// Creación de la clase abstracta Area
 abstract class Area {
-    abstract protected $area;
-}
+    protected $area;
 
+    abstract public function calcularArea();
+}
 
 ?>
