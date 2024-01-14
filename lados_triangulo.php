@@ -15,12 +15,13 @@
         <div class="tab-pane" id="step1">
             <ul>
                 <li>
+                <h1>TRIANGULO</h1>
         <label for="lado1">Lado 1:</label>
-        <input type="text" id="lado1" name="lado1" placeholder="Escribe la longitud del lado 1..." aria-describedby="error_lado1">
+        <input type="number" id="lado1" name="lado1" placeholder="Escribe la longitud del lado 1..." aria-describedby="error_lado1">
         <span id="error_lado1" class="error-message"></span>
 
         <label for="lado2">Lado 2:</label>
-        <input type="text" id="lado2" name="lado2" placeholder="Escribe la longitud del lado 2..." aria-describedby="error_lado2">
+        <input type="number" id="lado2" name="lado2" placeholder="Escribe la longitud del lado 2..." aria-describedby="error_lado2">
         <span id="error_lado2" class="error-message"></span>
 
        
